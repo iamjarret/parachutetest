@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Details</title>
+</head>
+<body>
+    <h1>Experiments</h1>
+    <ul>
+    {% for item in experiments %}
+        <li>{% if item.finished %}(DONE) {% endif %} <a href="test/{{ item.testname }}">{{ item.testname }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

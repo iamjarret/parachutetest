@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Details for {{test.testname}}</title>
+</head>
+<body>
+    <ul id="navigation">
+    {% for item in exp %}
+        <li>{% if item.finished %}(DONE) {% endif %} {{ item.inputfile }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
