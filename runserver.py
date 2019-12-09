@@ -17,5 +17,3 @@ def focus(name):
 	return render_template("details.html",test=test, exp=exp)
 
 
-if __name__ == '__main__':
-    app.run()
