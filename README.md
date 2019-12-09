@@ -7,4 +7,4 @@ Developers and researchers can test their changes to the codebase.  Besides the 
 
 This is its own research direction because in fine-tuning the application we are developing heuristics to determine how and when computational fluid simulations go awry.  We hope to implement these heuristics into the simulation model itself, i.e. in informed adaptive timestepping.
 
-We welcome ideas and contributions!
+We welcome ideas and contributions!  Results are live at [https://parachutetest.herokuapp.com/](https://parachutetest.herokuapp.com/)
